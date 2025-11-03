@@ -1,0 +1,37 @@
+.app-container {
+  text-align: center;
+  background-color: #101820;
+  color: white;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #00bcd4;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0097a7;
+}
+
+.error {
+  color: #ff4444;
+  font-weight: bold;
+}
